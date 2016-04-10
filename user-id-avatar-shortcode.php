@@ -6,7 +6,7 @@ extract( shortcode_atts(
                        ) 
         );
 
-return get_avatar( $user_id, 96 ); // display the specific user_id's avatar	
+return get_avatar( $id, 96 ); // display the specific user_id's avatar	
                                                         }
 add_shortcode('avatar','shortcode_user_avatar');
 ?>
